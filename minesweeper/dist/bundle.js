@@ -409,7 +409,7 @@
                 let index = 0;
                 do {
                     index = Math.floor(Math.random() * this.data.length);
-                } while (!this.data[index].isMine);
+                } while (this.data[index].isMine);
                 this.data[index].isMine = true;
             }
             for (let i = 0; i < this.data.length; i++) {
